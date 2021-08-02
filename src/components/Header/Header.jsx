@@ -1,16 +1,13 @@
 import React from 'react';
-
 import logo from './logo.svg';
-import STYLES from './Header.scss';
-
-const getClassName = (className) => STYLES[className] || 'UNKNOWN';
+import './Header.css';
 
 const Header = () => (
-  <header className={getClassName('Header')}>
+  <header className='Header'>
     <a href="/">
-      <span className={getClassName('Header__hidden-text')}>Skyscanner</span>
+      <span className='Header__hidden-text'>Skyscanner</span>
       <img
-        className={getClassName('Header__logo-image')}
+        className='Header__logo-image'
         alt="Skyscanner"
         src={logo}
       />

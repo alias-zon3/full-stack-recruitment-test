@@ -1,5 +1,3 @@
-import 'bpk-stylesheets';
-import 'bpk-stylesheets/font';
 import React from 'react';
 import ReactDOM from 'react-dom';
 

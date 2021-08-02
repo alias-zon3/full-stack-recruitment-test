@@ -1,17 +1,12 @@
 import React from 'react';
-import BpkText from 'bpk-component-text';
-
 import Header from '../Header';
-
-import STYLES from './App.scss';
-
-const getClassName = (className) => STYLES[className] || 'UNKNOWN';
+import './App.css';
 
 const App = () => (
-  <div className={getClassName('App')}>
+  <div className='App'>
     <Header />
-    <main className={getClassName('App__main')}>
-      <BpkText tagName="p">Over to you...</BpkText>
+    <main className='App__main'>
+      <p>Over to you...</p>
       {/* TODO: Add a component to display results here */}
     </main>
   </div>
