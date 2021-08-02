@@ -1,3 +1,5 @@
+# **_Altered since it wouldn't work out the box with a straight 'npm install'_**
+
 # Skyscanner full-stack recruitment test
 
 
