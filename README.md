@@ -1,4 +1,4 @@
-# **_Altered since it wouldn't work out the box with a straight 'npm install'_**
+# **_Altered since it wouldn't work out the box on node v16.5 with a straight 'npm install'_**
 
 # Skyscanner full-stack recruitment test
 
