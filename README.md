@@ -1,4 +1,6 @@
-# **_Altered since it wouldn't work out the box on node v16.5 with a straight 'npm install'_**
+# **_"origin/main" branch is the starter project altered since it wouldn't work out the box on node v16.5 with a straight 'npm install'_**
+
+# **_I also have an "origin/attempt_1" branch that has my submission should you wish to have a glance_**
 
 # Skyscanner full-stack recruitment test
 
