@@ -1,7 +1,9 @@
 @import '~bpk-mixins';
 
 .App {
+  background: #E8E8E8;
+
   &__main {
-    padding: $bpk-spacing-sm;
+    padding-bottom: $bpk-spacing-sm;
   }
 }

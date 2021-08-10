@@ -1,0 +1,85 @@
+@import '~bpk-mixins';
+
+.Leg {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "logo depart arrow arrive duration";
+  grid-gap: 0.2rem;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+
+  &__logo {
+    grid-area: logo;
+    border-radius: 5px;
+    padding-top: 5px;
+
+    img {
+      width: 100%;
+      max-width: 32px;
+    }
+  }
+
+  &__depart {
+    grid-area: depart;
+    border-radius: 5px;
+    padding-top: 5px;
+
+    span {
+      display: block;
+      height: 50%;
+    }
+  }
+
+  &__arrow {
+    grid-area: arrow;
+    border-radius: 5px;
+
+    img {
+      width: 100%;
+      max-width: 16px;
+      margin: 10px 0 10px 0;
+    }
+  }
+
+  &__arrive {
+    grid-area: arrive;
+    border-radius: 5px;
+    padding-top: 5px;
+
+    span {
+      display: block;
+      height: 50%;
+    }
+  }
+
+  &__duration {
+    grid-area: duration;
+    border-radius: 5px;
+    padding-top: 5px;
+
+    span {
+      display: block;
+      height: 50%;
+      margin-right: 0;
+      text-align: right;
+      font-size: 14px;
+    }
+  }
+}
+
+.stops {
+  &__direct {
+    color: green;
+  }
+
+  &__some {
+    color: red;
+  }
+}
+
+.greytext {
+  color: grey;
+}
